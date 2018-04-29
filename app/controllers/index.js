@@ -15,16 +15,21 @@ module.exports.conversation = function (application, req, res) {
     console.log(message);
 
     sendMessage(message, (responses) => {
-        console.log(responses);
-        console.log('Detected intent');
         const result = responses[0].queryResult;
-        console.log(`  Query: ${result.queryText}`);
-        console.log(`  Response: ${result.fulfillmentText}`);
         application.app.controllers.funcs.speak(result.fulfillmentText);
+
         if (result.intent) {
-            console.log(`  Intent: ${result.intent.displayName}`);
-        } else {
-            console.log(`  No intent matched.`);
+            switch (result.intent.displayName) {
+                case "TocarMusica.sim":
+                case "TocarMusica.artista":
+                case "TocarMusica.genero":
+                case "TocarMusica.nome":
+                    application.app.controllers.funcs.playMusic(result);
+                    break;
+                case "PararMusica":
+                    application.app.controllers.funcs.stopMusic();
+                    break;
+            }
         }
     });
 

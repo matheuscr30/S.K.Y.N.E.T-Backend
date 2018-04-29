@@ -1,27 +1,6 @@
 /*const translate = require('google-translate-api');
 
-const ypi = require('youtube-playlist-info');
-
-const ffmpeg = require('fluent-ffmpeg');
-const YouTube = require('youtube-node');
-const Speaker = require('speaker');
-const request = require('request');
-const ytdl = require('ytdl-core');
-const lame = require('lame');
-const yql = require('yql');
-
-
-
-const youTube = new YouTube();
-var musicaTocando = false;
-var lastEntity;
-var stream;
-
 const target = 'pt';
-
-youTube.setKey('AIzaSyC5NNONZMPnkrdvvCWJ9ordrYcybEK16mo');
-
-
 
 module.exports.verifyTranslate = function (input) {
     //console.log(input);
@@ -46,72 +25,10 @@ module.exports.translate = function (text, callback = () => {}) {
         console.error(err);
     });
 };
-
-module.exports.configMusica = function (input) {
-
-    if (input['entities'].length > 0) {
-        let entity = input['entities'][0]['entity'];
-
-        if (entity === "podeEscolher") {
-
-            ypi("AIzaSyC5NNONZMPnkrdvvCWJ9ordrYcybEK16mo", "PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj").then(items => {
-                //console.log(items.length);
-                min = Math.ceil(0);
-                max = Math.floor(199);
-                ran = Math.floor(Math.random() * (max - min)) + min;
-                //console.log(ran);
-                //console.log(items[ran]['resourceId']['videoId']);
-                console.log(items[ran]['title']);
-                module.exports.tocarMusica(items[ran]['resourceId']['videoId']);
-
-            }).catch(console.error);
-        }
-
-        lastEntity = entity;
-        return;
-    }
-
-    if (lastEntity === "naoPodeEscolher") {
-        text = input['context']['musica'];
-        delete input['context']['musica'];
-
-        youTube.search(text, 5, function (error, result) {
-            if (error) {
-                console.log(error);
-            }
-            else {
-                //console.log(JSON.stringify(result, null, 2));
-                let id = result['items'][0]['id']['videoId'];
-                module.exports.tocarMusica(id);
-                lastEntity = "";
-            }
-        });
-    }
-}
-
-module.exports.tocarMusica = function (id) {
-    let url = 'http://youtube.com/watch?v=' + id;
-
-    let dl = ytdl(url, {
-        filter: function (format) {
-            return format.container === 'mp4';
-        }
-    });
-    stream = ffmpeg(dl).format('mp3').pipe(new lame.Decoder())
-        .on('format', function (format) {
-            this.pipe(new Speaker(format));
-            musicaTocando = true;
-        });
-};
-
-module.exports.pararMusica = function () {
-    if (musicaTocando) {
-        stream.end();
-        musicaTocando = false;
-    }
-};
 */
 
+const nodeSpotifyWebHelper = require('node-spotify-webhelper');
+const spotify = new nodeSpotifyWebHelper.SpotifyWebHelper({port : 4381});
 const watson = require('watson-developer-cloud');
 const SoundPlayer = require('soundplayer');
 const player = new SoundPlayer();
@@ -123,7 +40,37 @@ const text_to_speech = new watson.TextToSpeechV1({
     password: "jyM05UoNNp4n"
 });
 
-module.exports.speak = function (message, callback = () => {}) {
+module.exports.playMusic = function (result) {
+    let texts = result['fulfillmentMessages'][0]['text']['text'];
+    let spotifyList = JSON.parse(texts[1]);
+
+    spotify.play(spotifyList);
+
+    spotify.getStatus(function (err, res) {
+        if (err) {
+            return console.error(err);
+        }
+
+        console.info('currently playing:',
+            res.track.artist_resource.name, '-',
+            res.track.track_resource.name);
+    });
+};
+
+module.exports.stopMusic = function () {
+    spotify.getStatus(function (err, res) {
+        if (err) {
+            return console.error(err);
+        }
+
+        let playing = res.playing;
+        if(playing)
+            spotify.pause();
+    });
+};
+
+module.exports.speak = function (message, callback = () => {
+}) {
     console.log(message);
     message = message.replace('.', '<break time="1s"/>');
 

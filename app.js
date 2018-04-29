@@ -5,3 +5,11 @@ var app = require('./config/server');
 app.listen(3000, function(){
 	console.log('Servidor online');
 });
+
+/*
+ALWAYS DO THAT
+
+1 - export GOOGLE_APPLICATION_CREDENTIALS=skynet-94a868ba972c.json
+2 - change node_modules/node-spotify-webhelper/index.js - line 158: return util.format("http://%s:%d%s", generateRandomLocalHostName(), localPort, url);
+
+ */
