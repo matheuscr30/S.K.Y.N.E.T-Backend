@@ -1,0 +1,20 @@
+{
+  "name": "S.K.Y.N.E.T-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Cunha Reis",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "dialogflow": "^0.3.0",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "soundplayer": "^1.1.1",
+    "watson-developer-cloud": "^3.3.0"
+  }
+}

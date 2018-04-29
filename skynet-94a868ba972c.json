@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "skynet-202411",
+  "private_key_id": "94a868ba972cea14812c15c26c68b77d46194c56",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDjL/gRqd8ZeQr0\nbzA3QfWTg8VtVajqUh39vPsHii8SxLtcd1la+EUZlxh5nrmHOmCIBM5LAPv0S/YL\n9uhgeJnt2AVkDVwpSo06AqCZsQdvhmX6LLmJi3DMcG1M1wvyMFoIV/QZQmvD9XuZ\nqLWNEwfmgVttnULW+j5saLYl5wnwmx2w5I/17qXlHUxODrrHpxcGgwfm/auQX86r\nxliOXze6mPfxG9RGmDbFMCJuxs8oZgn95ZtjzQ+kHRXu3myM/LaS8YX5hWaT3UpE\njIgaQJelgy7ngw8Hpw/FPAgTc6mmY2uBuGpwYwFi3Im/Hhld4kUFKKJuaPlOsd0n\n9SAFH7HnAgMBAAECggEAFIfYuKvrw+8K3OURa+TzjuWpGUTU83wBRtVlsBw+Pcl2\njxggBJcME5Byf0cnR/+wCoq4o9GOc1jL/u/Mty8e5f4QGqcUbYzVr2jeX5U+cUcp\nfw68o5/szSTZ08hZRYU2FavxHLlCaN6N0WiMI5gVLjEBdKnyCOBrdLuPvmQfI1WN\npWYBy4iImJ5/XiqxFbj3hnFS5f8gGJ1WIyK06o/mH5GJ+vMA7tm6XbPLYyaVTU9S\nVJJlFU2AHNqSuROpXqqqzKVvVE0K43/3k4TT/52d0g6MgoeE6ES9QGFW3cY+LzWk\nongP26nlHn+a7UrnpmAyu7sqUBX5Bm6KbIeyxEPMcQKBgQD0QjaqW+HIOYD/q7/e\nMWb/HjsbHnmPsqr7Yjluy8K59hiVGwM41qp7PMS5ztSMxblaE9sGsvZJm0SHrDF6\nhTin3U6MBqRs6+eY593AvaimmQzO7BTweAhmsidNaZBDeM2ftjH/nsX2PFgseJ9l\ndI71IrvnVKo+nmUFGWSqEyP8dwKBgQDuG65BhJixcdCPFdiLQ0cbU3a+lWE+b4dd\nBmKzoYJJ9r5Y1IpsdT0E+aP295CNIEaP45zY9MNvHYrrmSx7qocnqI0KbctrW4tQ\nFbYgUjbtBXGpGAWwx1ogWUZBHCuhP0AATvxBjQEj8dDrRhz5O3AYXXKK7+QSIw9G\ntbXFzhUCEQKBgQDtLlaSukHWATCoE4huI56V4C8YuFDmHmI1VD3cvnNJzBQ2xVIt\noRVOMcX9fz+Zqm2/cERgjurksqaq76PkCvTm29jn05NaSQBM0+navM/FZhyv2ULD\n9mqB/kB3xSfWvLk+eta2FuC3qAUeucpd4/7lPmMj0Gy3/Wqutueu1oM9JQKBgQCG\nXMxqYF6h0y3zcEpv25kmjGS3iygCyYDDN7U+1GbnQfuLuPQb29SBGDY0SOMjIBFx\nZOm/a+9UpoEcDaWSa1o1QOHF/ssJW/EzUe0iNAKWobnPx6R+ayAqnPYOC817Amwl\nQG0MuHrqQ6y29yumYKoStbjLOi+jJHGcXzGh23bzYQKBgCN75o0/8kNFxmFxuKua\nfMVXyF0x7VU1psPauncDV8iqWaFvUXr2UyNQWFNzpUxDmbYtgbvb2kKeFgcmxhar\n6ktQljvv/SUzI5T7FSS9rkUoLLerdI7S+LQsr0sYraTBsKvti7ZmYGfz/P5CuKZn\nJnU62nMT6BNZd8coueXoxqqK\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-skynet@skynet-202411.iam.gserviceaccount.com",
+  "client_id": "102987525048557141518",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-skynet%40skynet-202411.iam.gserviceaccount.com"
+}
