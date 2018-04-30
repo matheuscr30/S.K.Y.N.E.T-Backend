@@ -33,7 +33,7 @@ module.exports.conversation = function (application, req, res) {
         }
     });
 
-    res.status(200).json("ok");
+    res.status(200).json({"response" : "ok"});
 };
 
 function sendMessage(message, callback = () => {}) {
