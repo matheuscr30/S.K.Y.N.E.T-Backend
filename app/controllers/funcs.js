@@ -30,8 +30,7 @@ module.exports.translate = function (text, callback = () => {}) {
 const nodeSpotifyWebHelper = require('node-spotify-webhelper');
 const spotify = new nodeSpotifyWebHelper.SpotifyWebHelper({port : 4381});
 const watson = require('watson-developer-cloud');
-const SoundPlayer = require('soundplayer');
-const player = new SoundPlayer();
+const Sound = require('node-aplay');
 const fs = require('fs');
 
 //Brainstorm IOT 5
@@ -89,7 +88,9 @@ module.exports.speak = function (message, callback = () => {
             text_to_speech.repairWavHeader(audio);
             fs.writeFileSync('audio.wav', audio);
 
-            player.sound('audio.wav', function () {
+            let music = new Sound('audio.wav');
+            music.play();
+            music.on('complete', function () {
                 callback();
             });
         });

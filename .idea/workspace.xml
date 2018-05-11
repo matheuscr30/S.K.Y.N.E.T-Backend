@@ -1,7 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d5baea8-07b5-40a0-bcdb-7b1c6cd8dc10" name="Default" comment="" />
+    <list default="true" id="9d5baea8-07b5-40a0-bcdb-7b1c6cd8dc10" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/funcs.js" afterPath="$PROJECT_DIR$/app/controllers/funcs.js" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/index.js" afterPath="$PROJECT_DIR$/app/controllers/index.js" />
+      <change beforePath="$PROJECT_DIR$/app/routes/index.js" afterPath="$PROJECT_DIR$/app/routes/index.js" />
+      <change beforePath="$PROJECT_DIR$/audio.wav" afterPath="$PROJECT_DIR$/audio.wav" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/lib/player.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/lib/sound.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/.bin/mime" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/async/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/async/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/async/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/async/dist/async.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/async/dist/async.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/async/lib/async.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/async/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/History.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/Readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/debug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/node.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/debug/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/build/build.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/build/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/cli.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/mime.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/mime/types.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/ms/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/ms/History.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/ms/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/ms/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/ms/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/ms/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/benchmark/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/benchmark/bench.gnu" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/benchmark/bench.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/benchmark/benchmark-native.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/benchmark/benchmark.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/benchmark/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/misc/compare.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/misc/perf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/rng-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/rng.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/test/mocha.opts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/test/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/node_modules/uuid/uuid.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/test/command.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/test/file.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/drums/kick.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/drums/phazed.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/drums/snare.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/drums/tick.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/mp3/L_appel.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/sfx/alarm.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/sfx/crinkle.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/sfx/ding.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/sfx/flush.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/soundplayer/wavs/sfx/intro.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Makefile" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Makefile" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/.deps/Release/obj.target/validation/src/validation.o.d" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/.deps/Release/obj.target/validation/src/validation.o.d" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/bufferutil.node" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/bufferutil.node" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/bufferutil.node" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/bufferutil.node" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/bufferutil/src/bufferutil.o" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/bufferutil/src/bufferutil.o" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/validation.node" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/validation.node" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/validation/src/validation.o" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/obj.target/validation/src/validation.o" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/validation.node" afterPath="$PROJECT_DIR$/node_modules/websocket/build/Release/validation.node" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/bufferutil.target.mk" afterPath="$PROJECT_DIR$/node_modules/websocket/build/bufferutil.target.mk" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/config.gypi" afterPath="$PROJECT_DIR$/node_modules/websocket/build/config.gypi" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/validation.target.mk" afterPath="$PROJECT_DIR$/node_modules/websocket/build/validation.target.mk" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/app/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -24,11 +114,9 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#sendMessage#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-269">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,8 +124,8 @@
       <file leaf-file-name="funcs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state relative-caret-position="166">
+              <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,11 +136,9 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +159,9 @@
         <option value="$PROJECT_DIR$/node_modules/node-spotify-webhelper/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/funcs.js" />
-        <option value="$PROJECT_DIR$/app/routes/index.js" />
         <option value="$PROJECT_DIR$/app/controllers/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/routes/index.js" />
       </list>
     </option>
   </component>
@@ -87,7 +174,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="683" />
     <option name="height" value="768" />
   </component>
@@ -106,9 +193,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +225,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,14 +345,24 @@
       <workItem from="1525036234237" duration="3119000" />
       <workItem from="1525040289995" duration="104000" />
       <workItem from="1525040921402" duration="2832000" />
+      <workItem from="1525393817999" duration="1091000" />
+      <workItem from="1525624215153" duration="68000" />
+      <workItem from="1525632705315" duration="199000" />
+      <workItem from="1525918269807" duration="598000" />
+      <workItem from="1525948130118" duration="169000" />
+      <workItem from="1525954997096" duration="868000" />
+      <workItem from="1525956003462" duration="926000" />
+      <workItem from="1525970723822" duration="612000" />
+      <workItem from="1526076994186" duration="1167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6055000" />
+    <option name="totallyTimeSpent" value="11753000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -276,10 +373,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21969697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -318,30 +415,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#sendMessage#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="270">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-spotify-webhelper/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="157" column="91" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="91" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -351,6 +436,272 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="80" column="6" lean-forward="false" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="80" column="6" lean-forward="false" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="80" column="6" lean-forward="false" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="6" lean-forward="false" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="80" column="6" lean-forward="true" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/node-spotify-webhelper/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="157" column="91" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -376,9 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#sendMessage#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -387,7 +736,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2355">
           <caret line="157" column="91" lean-forward="true" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="91" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -420,59 +765,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/node-spotify-webhelper/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="157" column="32" lean-forward="false" selection-start-line="157" selection-start-column="32" selection-end-line="157" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/funcs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#sendMessage#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-269">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

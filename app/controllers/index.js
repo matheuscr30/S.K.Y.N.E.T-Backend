@@ -15,18 +15,18 @@ module.exports.conversation = function (application, req, res) {
     console.log(message);
 
     sendMessage(message, (responses) => {
-        const result = responses[0].queryResult;
+        let result = responses[0].queryResult;
         application.app.controllers.funcs.speak(result.fulfillmentText);
 
         if (result.intent) {
             switch (result.intent.displayName) {
-                case "TocarMusica.sim":
-                case "TocarMusica.artista":
-                case "TocarMusica.genero":
-                case "TocarMusica.nome":
+                case "music.yes":
+                case "music.artist":
+                case "music.genre":
+                case "music.name":
                     application.app.controllers.funcs.playMusic(result);
                     break;
-                case "PararMusica":
+                case "music.stop":
                     application.app.controllers.funcs.stopMusic();
                     break;
             }

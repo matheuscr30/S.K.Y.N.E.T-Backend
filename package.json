@@ -13,9 +13,11 @@
     "consign": "^0.1.6",
     "dialogflow": "^0.3.0",
     "express": "^4.16.3",
+    "google-translate-api": "^2.3.0",
+    "natural": "^0.5.6",
+    "node-aplay": "^1.0.3",
     "node-spotify-webhelper": "0.0.6",
     "request": "^2.85.0",
-    "soundplayer": "^1.1.1",
     "watson-developer-cloud": "^3.3.0"
   }
 }
