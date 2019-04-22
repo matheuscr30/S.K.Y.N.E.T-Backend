@@ -1,0 +1,363 @@
+syntax = 'proto3';
+import "google/protobuf/timestamp.proto";
+package FINNOQ_API;
+
+message AuthRequest {
+    string grant_type = 1;
+    string client_id = 2;
+    string client_secret = 3;
+    string username = 4;
+    string password = 5;
+    string refresh_token = 6;
+}
+
+message AuthResponse {
+    string access_token = 1;
+    int32 expires_in = 2;
+    string token_type = 3;
+    string scope = 4;
+    string refresh_token = 5;
+}
+
+message Error {
+    string reason = 1;
+    int32 status_code = 2;
+    string message = 3;
+}
+
+message Category {
+    int32 id = 1;
+    string title = 2;
+    repeated Category subcategories = 3;
+}
+
+message CategoryList {
+    repeated Category categories = 1;
+}
+
+message Country {
+    int32 id = 1;
+    string ISO = 2;
+    string title = 3;
+}
+
+message CountryList {
+    repeated Country countries = 1;
+}
+
+message Profession {
+    int32 id = 1;
+    string title = 2;
+}
+
+message ProfessionList {
+    repeated Profession professions = 1;
+}
+
+message NotificationType {
+    int32 id = 1;
+    string label = 2;
+    int32 priority = 3;
+}
+
+message NotificationTypeList {
+    repeated NotificationType notification_types = 1;
+}
+
+message Notification {
+    int32 id = 1;
+    NotificationType type = 2;
+    string text = 3;
+    int32 poll_id = 4;
+}
+
+message NotificationList {
+    repeated Notification notifications = 1;
+}
+
+message NotificationSetting {
+    int32 id = 1;
+    bool is_enabled = 2;
+    int32 notification_type_id = 3;
+    int32 user_id = 4;
+}
+
+message NotificationSettingList {
+    repeated NotificationSetting notification_settings = 1;
+}
+
+message ViewedNotification {
+    string access_token = 1;
+    repeated Notification notifications = 2;
+}
+
+message User {
+    enum Gender {
+        UNDEFINED_GENDER = 0;
+        MALE = 1;
+        FEMALE = 2;
+        NON_BINARY = 3;
+        NOT_SPECIFIED = 4;
+    }
+
+    enum GroupOfAge {
+        UNDEFINED_GROUP_OF_AGE = 0;
+        GROUP_18_24 = 1;  //18-24
+        GROUP_25_34 = 2;  //25-34
+        GROUP_35_44 = 3;  //35-44
+        GROUP_45_54 = 4;  //45-54
+        GROUP_55_64 = 5;  //55-64
+        GROUP_65 = 6;     //+65
+    }
+
+    //Required variables
+    int32 id = 1;
+    string first_name = 2;
+    string last_name = 3;
+    string email = 4;
+    bool email_confirmed = 5;
+    string password = 6;
+    google.protobuf.Timestamp birth_date = 7;
+    Gender gender = 8;
+    string phone_country_code = 9;
+    string phone = 10;
+    repeated Profession professions = 11;
+    Country residence_country = 12;
+    GroupOfAge group_of_age = 13;
+    bool accept_terms = 14;
+    bool accept_nl = 15;
+    bool has_permission = 16;
+    double credits = 17;
+    google.protobuf.Timestamp created_date = 18;
+    Country nationality = 19;
+    string facebook = 20;
+    string telegram = 21;
+    string reddit = 22;
+    string twitter = 23;
+    string eth = 24;
+    string eth_testnet = 25;
+    string identicon = 26;
+    string referral_link = 27;
+    string referral_token = 28;
+    double referral_credits = 29;
+    double bounty_credits = 30;
+    bool ask_permission = 31;
+    string campaign = 32;
+    repeated Notification notifications = 33;
+    repeated NotificationSetting notification_settings = 34;
+}
+
+message UserList {
+    repeated User users = 1;
+    int32 number_of_users = 2;
+}
+
+message SocialAuthRequest {
+    string token = 1;
+}
+
+message SocialAuthResponse {
+    AuthResponse auth_response = 1;
+    User user = 2;
+}
+
+message Poll {
+    int32 id = 1;
+    int32 user_id = 2;
+    string tx_id = 3;
+    string title = 4;
+    string description = 5;
+    google.protobuf.Timestamp created_date = 6;
+    google.protobuf.Timestamp opening_date = 7;
+    google.protobuf.Timestamp closing_date = 8;
+    int32 is_published = 9;
+    int32 min_num_of_participants = 10;
+    int32 max_num_of_participants = 11;
+    int32 number_of_questions = 12;
+    int32 total_votes = 13;
+    double credits = 14;
+    string media = 15;
+    string calendar_link = 16;
+    bool is_favorited = 17;
+    int32 number_of_favorites = 18;
+    bool is_liked = 19;
+    int32 number_of_likes = 20;
+    bool is_participated = 21;
+    string vote_tx_id = 22;
+    string question_title = 23;
+    bool is_accepted = 24;
+    bool is_reviewed = 25;
+    repeated Category categories = 26;
+    repeated Question questions = 27;
+}
+
+message PollList {
+    repeated Poll polls =  1;
+}
+
+message Question {
+    int32 id = 1;
+    int32 poll_id = 2;
+    int32 user_id = 3;
+    string tx_id = 4;
+    string title = 5;
+    google.protobuf.Timestamp created_date = 6;
+    string media = 7;
+    string ground_truth_media = 8;
+    string ground_truth_text = 9;
+    repeated Answer answers = 10;
+}
+
+message QuestionList {
+    repeated Question questions = 1;
+}
+
+message Answer {
+    int32 id = 1;
+    int32 question_id = 2;
+    int32 user_id = 3;
+    string tx_id = 4;
+    string title = 5;
+    google.protobuf.Timestamp created_date = 6;
+    int32 total_votes = 7;
+    string media = 8;
+    repeated Vote votes = 9;
+}
+
+message AnswerList {
+    repeated Answer answers = 1;
+}
+
+message Vote {
+    int32 id = 1;
+    int32 answer_id = 2;
+    int32 user_id = 3;
+    string tx_id_commit = 4;
+    string tx_id_reveal = 5;
+    int32 prediction = 6;
+    int32 confidence = 7;
+    google.protobuf.Timestamp created_date = 8;
+}
+
+message VoteList {
+    repeated Vote votes = 1;
+}
+
+message Suggestion {
+    int32 id = 1;
+    string text = 2;
+    int32 user_id = 3;
+}
+
+message SuggestionList {
+    repeated Suggestion suggestions = 1;
+}
+
+message AnswerResult {
+    int32 id = 1;
+    string title = 2;
+    int32 total_votes = 3;
+}
+
+message QuestionResult {
+    int32 id = 1;
+    AnswerResult answer = 2;
+    int32 total_votes = 3;
+}
+
+message PollResult {
+    repeated QuestionResult questions = 1;
+    int32 total_votes = 2;
+}
+
+message UserPollLists {
+    PollList created_polls = 1;
+    PollList participated_polls = 2;
+}
+
+message UserQuestionLists {
+    QuestionList created_questions = 1;
+    QuestionList participated_questions = 2;
+}
+
+message UserAnswerLists {
+    AnswerList created_answers = 1;
+    AnswerList participated_answers = 2;
+}
+
+message Credit {
+    int32 id = 1;
+    int32 poll_id = 2;
+    int32 question_id = 3;
+    int32 user_id = 4;
+    double credits = 5;
+    google.protobuf.Timestamp created_date = 6;
+}
+
+message CreditList {
+    repeated Credit credits = 1;
+}
+
+message ReferralCredit {
+    int32 id = 1;
+    double credits = 2;
+    int32 user_referral_id = 3;
+    int32 user_response_id = 4;
+}
+
+message ReferralCreditList {
+    repeated ReferralCredit referral_credits = 1;
+}
+
+message ReferralResponse {
+    int32 id = 1;
+    string session_key = 2;
+    string ip_address = 3;
+    string action = 4;
+    int32 target_object_id = 5;
+    google.protobuf.Timestamp created_date =6;
+    int32 referral_id = 7;
+    int32 target_content_type_id = 8;
+    int32 user_id = 9;
+}
+
+message ReferralResponseList {
+    repeated ReferralResponse referral_responses = 1;
+}
+
+message UserLeadboard {
+    int32 position = 1;
+    string eth = 2;
+    double credits = 3;
+    int32 total_participated_polls = 4;
+    int32 total_right_votes = 5;
+    int32 total_wrong_votes = 6;
+}
+
+message Leaderboard {
+    repeated UserLeadboard leaderboard = 1;
+    UserLeadboard current_user = 2;
+}
+
+message Transaction {
+    string transaction = 1;
+    google.protobuf.Timestamp created_date = 2;
+}
+
+message TransactionsList {
+    enum Type {
+        UNDEFINED_TYPE = 0;
+        POLL = 1;
+        QUESTION = 2;
+    }
+    Type type = 1;
+    repeated Transaction transactions = 2;
+}
+
+message FirebaseToken {
+    string token = 1;
+}
+
+message Invitation {
+    string emails = 1;
+}

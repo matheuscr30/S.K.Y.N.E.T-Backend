@@ -5,5 +5,6 @@ admin.autodiscover()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include('skynet_resources.url'))
+    path('api/v1/', include('skynet_resources.urls')),
+    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider'))
 ]
